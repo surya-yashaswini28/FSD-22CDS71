@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Admission form</title>
+    </head>
+    <body>
+        <h1>
+            Student Admission Form
+        </h1>
+        <form id="form">
+            <label for="name">Enter name</label>
+            <input type="text" id="name" placeholder="enter name"/>
+            <p id="nameError"></p>
+            <br/>
+            <label for="email" >Enter email</label>
+            <input type="email" id="email" placeholder="enter email"/>
+            <p id="emailError"></p>
+            <br/>
+            <label for="dob">Enter dob</label>
+            <input type="date" id="dob" placeholder="enter dob"/>
+            <p id="dobError"></p>
+            <br/>
+            <label for="course">Enter course</label>
+            <select id="course">
+                <option value=""></option>
+                <option value="CSE">CSE</option>
+                <option value="CDS">CDS</option>
+                <option value="AIML">AIML</option>
+                <option value="ECE">ECE</option>
+            </select>
+            <p id="courseError"></p>
+            <br/>
+            <button id="button" type="submit">Submit</button>
+
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
